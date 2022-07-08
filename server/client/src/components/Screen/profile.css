@@ -1,0 +1,40 @@
+.profile-cont{
+
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content:space-around;
+    margin:18px 0px;
+    border-bottom: 1px solid grey;
+    
+    
+
+}
+.profile_img_sec{
+    /* border: 2px solid red; */
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+
+}
+.profile_content{
+ /* border: 2px solid red; */
+ justify-content: space-between;
+ width: 108%;
+    display:flex ;
+}
+.gallery{
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+ 
+}
+
+.item{
+    width: 33%;
+ }
+ .profile{
+     max-width:550px;
+     margin: 0px auto;
+ }
+
+

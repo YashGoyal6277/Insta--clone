@@ -1,0 +1,125 @@
+.home{
+    /* border: 2px solid red; */
+  
+    
+}
+.home-card{
+    /* border: 2px solid blue; */
+    max-width: 40%;
+    height: max-content;
+    margin: 20px auto;
+}
+.b:hover{
+    cursor:pointer
+}
+
+.home-card{
+    margin: 26px auto;
+    max-width: 750px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 100%;
+   height: auto;
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px 2px black;
+}
+.home{
+    display: flex;
+    flex-direction: column !important;
+    margin: auto;
+}
+.card-image{
+    width: 100%;
+    height: 45vh !important;
+    
+    padding: 5px;
+}
+.card-image img{
+  height: 100%;
+  
+}
+.postedBy{
+    display: flex;
+    flex-direction: row;
+  
+    
+    
+}
+.postedBy span{
+    font-size: 30px;
+    text-align: center;
+    margin-top:10px ;
+   
+
+}
+.commentors{
+    /* border: 2px solid brown; */
+    margin-left: 10px;
+}
+.commentors p{
+    padding:20px 0px;
+}
+.person-name{
+    margin-left: 10px;
+}
+.postedBy img{
+    width:50px;
+    height:50px;
+    border-radius: 50px; 
+    margin-top: 5px;
+    margin-left: 10px;  
+}
+.commentsec{
+    display: flex;
+    flex-direction: row;
+}
+.commentimg{
+    width:50px;
+    height:50px;
+    border-radius: 50px; 
+    margin-top: 5px;
+    margin-left: 10px;  
+}
+.makecomment{
+    border: 2px inset black;
+    border-radius: 5px;
+    
+    display: flex;
+    flex-direction: row;
+   
+    padding: 1% 1%;
+}
+
+
+@media only screen and (max-width:700px) {
+    .home-card{
+        margin: 26px auto;
+        max-width: 550px;
+        justify-content: center;
+        align-items: center;
+        border: 4px solid black;
+        width: 100%;
+       height: auto;
+       border-radius: 30px;
+       box-shadow: 5px 5px 5px 5px grey;
+    }
+}
+@media only screen and (max-width:400px) {
+    .home-card{
+        margin:  auto;
+        max-width: 330px;
+        justify-content: center;
+        align-items: center;
+        border: 4px solid black;
+        width: 100%;
+       height: auto;
+       border-radius: 30px;
+       box-shadow: 5px 5px 5px 5px grey;
+    }
+    .card-image{
+        height: 200px;
+        width: 100vw;
+       
+    }
+}
